@@ -31,6 +31,8 @@ public class FormController {
         txtPrecio.setText(String.valueOf(producto.getPrecio()));
         txtStock.setText(String.valueOf(producto.getStock()));
         txtCategoria.setText(producto.getCategoria());
+
+        txtCodigo.setEditable(false);
     }
 
     public void setMainController(MainController controladorReal) {
