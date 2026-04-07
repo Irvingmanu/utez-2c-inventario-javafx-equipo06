@@ -1,1 +1,0 @@
-# utez-2c-inventario-javafx-equipo06
