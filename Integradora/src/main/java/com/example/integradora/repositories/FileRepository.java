@@ -33,5 +33,4 @@ public class FileRepository {
         ensureFile();
         Files.write(pathFile, lines, StandardCharsets.UTF_8, StandardOpenOption.TRUNCATE_EXISTING);
     }
-
 }
